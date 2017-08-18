@@ -1,0 +1,23 @@
+git: version control
+====================
+
+git-scm.com
+
+Pro git book: https://git-scm.com/book/en/v2
+
+git config --global user.name "Ulf Swedin"
+git config --global user.email "ulf@swedin.nu
+git config --global push.default matching
+git config --global alias.co checkout
+
+Kommandon:
+
+git init > .git
+
+git status
+
+git add .
+
+git rm --cached -r node_modules
+
+git commit -a -m "Initialize repo"
