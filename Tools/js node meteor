@@ -21,3 +21,38 @@ git add .
 git rm --cached -r node_modules
 
 git commit -a -m "Initialize repo"
+
+ssh:
+=============
+.ssh\id_rsa
+id_rsa.pub
+
+generate ssh
+
+> ssh -keygen -t rsa -b 4096 -C "ulfswedin@gmail.com"
+
+
+https://www.ssh.com/ssh/protocol/
+
+Github:
+=======
+
+git remote add origin https://github.com/BagheeraBear/webserver2.git
+git push -u origin master
+
+c:\Curl\web-server>git remote
+origin
+
+c:\Curl\web-server>git remote -v
+origin  https://github.com/BagheeraBear/webserver2.git (fetch)
+origin  https://github.com/BagheeraBear/webserver2.git (push)
+
+Heroku
+======
+
+heroku --version
+
+heroku apps
+
+heroku create
+heroku open
